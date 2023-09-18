@@ -28,12 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            button1 = new Button();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.CornflowerBlue;
+            button1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Location = new Point(58, 52);
+            button1.Margin = new Padding(4);
+            button1.Name = "button1";
+            button1.Size = new Size(328, 102);
+            button1.TabIndex = 0;
+            button1.Text = "Exibir Mensagem de Boas-Vindas";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(9F, 21F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(454, 325);
+            Controls.Add(button1);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            ForeColor = Color.Navy;
+            Margin = new Padding(4);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
     }
 }

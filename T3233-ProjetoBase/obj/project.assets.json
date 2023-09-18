@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\michael.smoreira\\Documents\\GitHub\\Csharp\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
+      "projectUniqueName": "C:\\Users\\michael.smoreira\\Source\\Repos\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
       "projectName": "T3233-ProjetoBase",
-      "projectPath": "C:\\Users\\michael.smoreira\\Documents\\GitHub\\Csharp\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
+      "projectPath": "C:\\Users\\michael.smoreira\\Source\\Repos\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
       "packagesPath": "C:\\Users\\michael.smoreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\michael.smoreira\\Documents\\GitHub\\Csharp\\T3233-ProjetoBase\\obj\\",
+      "outputPath": "C:\\Users\\michael.smoreira\\Source\\Repos\\T3233-ProjetoBase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
