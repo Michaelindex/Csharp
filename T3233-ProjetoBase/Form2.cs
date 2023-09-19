@@ -19,7 +19,18 @@ namespace T3233_ProjetoBase
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Variáveis
+            double Kms, hrs, Vm;
 
+            //Entrada
+            Kms = double.Parse(txtKm.Text);
+            hrs = double.Parse(txtHr.Text);
+
+            //Processamento
+            Vm = Kms / hrs;
+
+            //Saída
+            MessageBox.Show("AllowDrop Velocidade média é de " + Vm.ToString() + " Km/Hora", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
