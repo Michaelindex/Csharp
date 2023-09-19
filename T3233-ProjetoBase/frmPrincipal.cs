@@ -35,5 +35,12 @@ namespace T3233_ProjetoBase
             frm.ShowDialog();
             //frm.Show();
         }
+
+        private void algorítmo03ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form03 frm = new Form03();
+            frm.ShowDialog();
+            //frm.Show();
+        }
     }
 }

@@ -81,6 +81,7 @@
             algorítmo03ToolStripMenuItem.Name = "algorítmo03ToolStripMenuItem";
             algorítmo03ToolStripMenuItem.Size = new Size(180, 22);
             algorítmo03ToolStripMenuItem.Text = "Algorítmo 03";
+            algorítmo03ToolStripMenuItem.Click += algorítmo03ToolStripMenuItem_Click;
             // 
             // algorítmo04ToolStripMenuItem
             // 

@@ -37,3 +37,4 @@ C:\Users\michael.smoreira\Source\Repos\T3233-ProjetoBase\obj\Debug\net6.0-window
 C:\Users\michael.smoreira\Source\Repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\T3233-ProjetoBase.genruntimeconfig.cache
 C:\Users\michael.smoreira\Source\Repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\ref\T3233-ProjetoBase.dll
 C:\Users\michael.smoreira\Source\Repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\T3233_ProjetoBase.Form2.resources
+C:\Users\michael.smoreira\Source\Repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\T3233_ProjetoBase.Form03.resources

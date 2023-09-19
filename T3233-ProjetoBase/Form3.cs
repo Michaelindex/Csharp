@@ -10,11 +10,31 @@ using System.Windows.Forms;
 
 namespace T3233_ProjetoBase
 {
-    public partial class Form3 : Form
+    public partial class Form03 : Form
     {
-        public Form3()
+        public Form03()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
