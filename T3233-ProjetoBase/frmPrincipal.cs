@@ -52,5 +52,11 @@ namespace T3233_ProjetoBase
             frmAlg05 frm = new frmAlg05();
             frm.ShowDialog();
         }
+
+        private void algorítmo06ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAlg06 frm = new frmAlg06();
+            frm.ShowDialog();
+        }
     }
 }

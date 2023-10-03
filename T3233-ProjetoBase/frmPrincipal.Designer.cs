@@ -102,6 +102,7 @@
             algorítmo06ToolStripMenuItem.Name = "algorítmo06ToolStripMenuItem";
             algorítmo06ToolStripMenuItem.Size = new Size(180, 22);
             algorítmo06ToolStripMenuItem.Text = "Algorítmo 06";
+            algorítmo06ToolStripMenuItem.Click += algorítmo06ToolStripMenuItem_Click;
             // 
             // algorítmo07ToolStripMenuItem
             // 
