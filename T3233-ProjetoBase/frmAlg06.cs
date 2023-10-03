@@ -62,7 +62,7 @@ namespace T3233_ProjetoBase
 
             // Passo 4: Limpar a ListBox
             lboNumeros.Items.Clear();
-
+            
             // Passo 5: Adicionar os números ordenados de volta à ListBox
             foreach (var numero in numeros)
             {
