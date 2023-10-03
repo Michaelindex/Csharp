@@ -88,12 +88,14 @@
             algorítmo04ToolStripMenuItem.Name = "algorítmo04ToolStripMenuItem";
             algorítmo04ToolStripMenuItem.Size = new Size(180, 22);
             algorítmo04ToolStripMenuItem.Text = "Algorítmo 04";
+            algorítmo04ToolStripMenuItem.Click += algorítmo04ToolStripMenuItem_Click;
             // 
             // algorítmo05ToolStripMenuItem
             // 
             algorítmo05ToolStripMenuItem.Name = "algorítmo05ToolStripMenuItem";
             algorítmo05ToolStripMenuItem.Size = new Size(180, 22);
             algorítmo05ToolStripMenuItem.Text = "Algorítmo 05";
+            algorítmo05ToolStripMenuItem.Click += algorítmo05ToolStripMenuItem_Click;
             // 
             // algorítmo06ToolStripMenuItem
             // 

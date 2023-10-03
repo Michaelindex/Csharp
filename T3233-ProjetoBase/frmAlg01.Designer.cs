@@ -50,7 +50,7 @@
             label1.Name = "label1";
             label1.Size = new Size(140, 21);
             label1.TabIndex = 0;
-            label1.Text = "Informe a Nota 01:";
+            label1.Text = "Informe a Nota 01";
             // 
             // label2
             // 

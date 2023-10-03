@@ -31,16 +31,26 @@ namespace T3233_ProjetoBase
 
         private void algorítmo02ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 frm = new Form2();
+            frmAlg02 frm = new frmAlg02();
             frm.ShowDialog();
-            //frm.Show();
         }
 
         private void algorítmo03ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form03 frm = new Form03();
+            frmAlg03 frm = new frmAlg03();
             frm.ShowDialog();
-            //frm.Show();
+        }
+
+        private void algorítmo04ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAlg04 frm = new frmAlg04();
+            frm.ShowDialog();
+        }
+
+        private void algorítmo05ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAlg05 frm = new frmAlg05();
+            frm.ShowDialog();
         }
     }
 }
