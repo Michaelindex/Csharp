@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gustavo.mveronezi\\.nuget\\packages\\": {},
+    "C:\\Users\\michael.smoreira\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gustavo.mveronezi\\source\\repos\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
+      "projectUniqueName": "C:\\Users\\michael.smoreira\\Documents\\GitHub\\Csharp\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
       "projectName": "T3233-ProjetoBase",
-      "projectPath": "C:\\Users\\gustavo.mveronezi\\source\\repos\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
-      "packagesPath": "C:\\Users\\gustavo.mveronezi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gustavo.mveronezi\\source\\repos\\T3233-ProjetoBase\\obj\\",
+      "projectPath": "C:\\Users\\michael.smoreira\\Documents\\GitHub\\Csharp\\T3233-ProjetoBase\\T3233-ProjetoBase.csproj",
+      "packagesPath": "C:\\Users\\michael.smoreira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\michael.smoreira\\Documents\\GitHub\\Csharp\\T3233-ProjetoBase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gustavo.mveronezi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\michael.smoreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
