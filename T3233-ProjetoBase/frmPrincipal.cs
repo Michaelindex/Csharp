@@ -58,5 +58,29 @@ namespace T3233_ProjetoBase
             frmAlg06 frm = new frmAlg06();
             frm.ShowDialog();
         }
+
+        private void algorítmo07ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAlg07 frm = new frmAlg07();
+            frm.ShowDialog();
+        }
+
+        private void ntwExemplo1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBco1 frm = new frmBco1();
+            frm.ShowDialog();
+        }
+
+        private void ntwExemplo2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBco2 frm = new frmBco2();
+            frm.ShowDialog();
+        }
+
+        private void mercadinhoExemplo3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBco3 frm = new frmBco3();
+            frm.ShowDialog();
+        }
     }
 }

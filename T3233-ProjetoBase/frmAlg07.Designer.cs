@@ -28,81 +28,83 @@
         /// </summary>
         private void InitializeComponent()
         {
+            btnSomar2 = new Button();
+            lstSoma = new ListBox();
+            btnSomar = new Button();
+            txtNumeroFinal = new TextBox();
             label1 = new Label();
-            textBox1 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            listBox1 = new ListBox();
             SuspendLayout();
+            // 
+            // btnSomar2
+            // 
+            btnSomar2.Location = new Point(17, 115);
+            btnSomar2.Name = "btnSomar2";
+            btnSomar2.Size = new Size(175, 23);
+            btnSomar2.TabIndex = 14;
+            btnSomar2.Text = "Somar o intervalo (GAUSS)";
+            btnSomar2.UseVisualStyleBackColor = true;
+            btnSomar2.Click += btnSomar2_Click;
+            // 
+            // lstSoma
+            // 
+            lstSoma.ForeColor = Color.Navy;
+            lstSoma.FormattingEnabled = true;
+            lstSoma.ItemHeight = 15;
+            lstSoma.Location = new Point(212, 28);
+            lstSoma.Name = "lstSoma";
+            lstSoma.Size = new Size(336, 274);
+            lstSoma.TabIndex = 13;
+            // 
+            // btnSomar
+            // 
+            btnSomar.Location = new Point(17, 76);
+            btnSomar.Name = "btnSomar";
+            btnSomar.Size = new Size(175, 23);
+            btnSomar.TabIndex = 12;
+            btnSomar.Text = "Somar o intervalo (FOR)";
+            btnSomar.UseVisualStyleBackColor = true;
+            btnSomar.Click += btnSomar_Click;
+            // 
+            // txtNumeroFinal
+            // 
+            txtNumeroFinal.ForeColor = Color.FromArgb(0, 0, 192);
+            txtNumeroFinal.Location = new Point(134, 28);
+            txtNumeroFinal.Name = "txtNumeroFinal";
+            txtNumeroFinal.Size = new Size(58, 23);
+            txtNumeroFinal.TabIndex = 11;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(17, 31);
             label1.Name = "label1";
-            label1.Size = new Size(192, 28);
-            label1.TabIndex = 0;
-            label1.Text = "Somatória de 1 até : ";
-            label1.Click += label1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(216, 14);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 1;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(12, 53);
-            button1.Name = "button1";
-            button1.Size = new Size(304, 31);
-            button1.TabIndex = 2;
-            button1.Text = "Somar o intervalo ( FOR )";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(12, 109);
-            button2.Name = "button2";
-            button2.Size = new Size(304, 31);
-            button2.TabIndex = 3;
-            button2.Text = "Somar o intervalo ( GAUSS )";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(336, 14);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(292, 409);
-            listBox1.TabIndex = 4;
+            label1.Size = new Size(111, 15);
+            label1.TabIndex = 10;
+            label1.Text = "Somatória de 1 até :";
             // 
             // frmAlg07
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(673, 448);
-            Controls.Add(listBox1);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
+            ClientSize = new Size(569, 340);
+            Controls.Add(btnSomar2);
+            Controls.Add(lstSoma);
+            Controls.Add(btnSomar);
+            Controls.Add(txtNumeroFinal);
             Controls.Add(label1);
             Name = "frmAlg07";
-            Text = "Algoritmo07";
-            Load += frmAlg07_Load;
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Algorítmo 07";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private Button btnSomar2;
+        private ListBox lstSoma;
+        private Button btnSomar;
+        private TextBox txtNumeroFinal;
         private Label label1;
-        private TextBox textBox1;
-        private Button button1;
-        private Button button2;
-        private ListBox listBox1;
     }
 }

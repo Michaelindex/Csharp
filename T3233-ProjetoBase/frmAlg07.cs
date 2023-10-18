@@ -17,14 +17,24 @@ namespace T3233_ProjetoBase
             InitializeComponent();
         }
 
-        private void frmAlg07_Load(object sender, EventArgs e)
+        private void btnSomar_Click(object sender, EventArgs e)
         {
-
+            int numeroFinal = int.Parse(txtNumeroFinal.Text);
+            int somatoria = 0;
+            lstSoma.Items.Clear();
+            for (int i = 1; i <= numeroFinal; i++)
+            {
+                somatoria = somatoria + i;
+                lstSoma.Items.Add($"Somando... {somatoria}");
+            }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnSomar2_Click(object sender, EventArgs e)
         {
-
+            float numeroFinal = float.Parse(txtNumeroFinal.Text);
+            float somatoria = (1 + numeroFinal) * (numeroFinal / 2);
+            lstSoma.Items.Clear();
+            lstSoma.Items.Add($"Somatória por GAUSS = {somatoria}");
         }
     }
 }
