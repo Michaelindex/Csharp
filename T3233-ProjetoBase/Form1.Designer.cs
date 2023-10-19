@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             button1 = new Button();
+            bindingSource1 = new BindingSource(components);
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -44,6 +47,7 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
@@ -56,11 +60,13 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)bindingSource1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Button button1;
+        private BindingSource bindingSource1;
     }
 }

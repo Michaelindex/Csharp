@@ -82,5 +82,11 @@ namespace T3233_ProjetoBase
             frmBco3 frm = new frmBco3();
             frm.ShowDialog();
         }
+
+        private void mercadinhoExemplo4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBco4 frm = new frmBco4();
+            frm.ShowDialog();
+        }
     }
 }
