@@ -71,7 +71,7 @@ ConfigurationManager.ConnectionStrings[2].ConnectionString;
             finally
             {
                 con.Close();
-                
+                novo = false;
             }
         }
 
