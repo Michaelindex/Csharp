@@ -41,6 +41,7 @@
             btnResposta.TabIndex = 5;
             btnResposta.Text = "Confirmar Palpite";
             btnResposta.UseVisualStyleBackColor = true;
+            btnResposta.Click += btnResposta_Click;
             // 
             // label1
             // 
