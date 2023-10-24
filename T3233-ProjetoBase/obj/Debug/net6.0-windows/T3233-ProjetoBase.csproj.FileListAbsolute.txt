@@ -36,3 +36,4 @@ C:\Users\gustavo.mveronezi\source\repos\T3233-ProjetoBase\obj\Debug\net6.0-windo
 C:\Users\gustavo.mveronezi\source\repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\T3233-ProjetoBase.genruntimeconfig.cache
 C:\Users\gustavo.mveronezi\source\repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\ref\T3233-ProjetoBase.dll
 C:\Users\gustavo.mveronezi\source\repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\T3233_ProjetoBase.frmBco4.resources
+C:\Users\gustavo.mveronezi\source\repos\T3233-ProjetoBase\obj\Debug\net6.0-windows\T3233_ProjetoBase.frmExtra1.resources
