@@ -44,15 +44,17 @@
             ntwExemplo1ToolStripMenuItem = new ToolStripMenuItem();
             ntwExemplo2ToolStripMenuItem = new ToolStripMenuItem();
             mercadinhoExemplo3ToolStripMenuItem = new ToolStripMenuItem();
+            mercadinhoExemplo4ToolStripMenuItem = new ToolStripMenuItem();
             aPIsToolStripMenuItem = new ToolStripMenuItem();
             relatóriosToolStripMenuItem = new ToolStripMenuItem();
-            mercadinhoExemplo4ToolStripMenuItem = new ToolStripMenuItem();
+            extrasToolStripMenuItem = new ToolStripMenuItem();
+            extra1ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { exercíciosToolStripMenuItem, bancoDeDadosToolStripMenuItem, aPIsToolStripMenuItem, relatóriosToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { exercíciosToolStripMenuItem, bancoDeDadosToolStripMenuItem, aPIsToolStripMenuItem, relatóriosToolStripMenuItem, extrasToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 24);
@@ -161,6 +163,13 @@
             mercadinhoExemplo3ToolStripMenuItem.Text = "Mercadinho - Exemplo3";
             mercadinhoExemplo3ToolStripMenuItem.Click += mercadinhoExemplo3ToolStripMenuItem_Click;
             // 
+            // mercadinhoExemplo4ToolStripMenuItem
+            // 
+            mercadinhoExemplo4ToolStripMenuItem.Name = "mercadinhoExemplo4ToolStripMenuItem";
+            mercadinhoExemplo4ToolStripMenuItem.Size = new Size(201, 22);
+            mercadinhoExemplo4ToolStripMenuItem.Text = "Mercadinho - Exemplo4";
+            mercadinhoExemplo4ToolStripMenuItem.Click += mercadinhoExemplo4ToolStripMenuItem_Click;
+            // 
             // aPIsToolStripMenuItem
             // 
             aPIsToolStripMenuItem.Name = "aPIsToolStripMenuItem";
@@ -173,12 +182,19 @@
             relatóriosToolStripMenuItem.Size = new Size(71, 20);
             relatóriosToolStripMenuItem.Text = "Relatórios";
             // 
-            // mercadinhoExemplo4ToolStripMenuItem
+            // extrasToolStripMenuItem
             // 
-            mercadinhoExemplo4ToolStripMenuItem.Name = "mercadinhoExemplo4ToolStripMenuItem";
-            mercadinhoExemplo4ToolStripMenuItem.Size = new Size(201, 22);
-            mercadinhoExemplo4ToolStripMenuItem.Text = "Mercadinho - Exemplo4";
-            mercadinhoExemplo4ToolStripMenuItem.Click += mercadinhoExemplo4ToolStripMenuItem_Click;
+            extrasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { extra1ToolStripMenuItem });
+            extrasToolStripMenuItem.Name = "extrasToolStripMenuItem";
+            extrasToolStripMenuItem.Size = new Size(50, 20);
+            extrasToolStripMenuItem.Text = "Extras";
+            // 
+            // extra1ToolStripMenuItem
+            // 
+            extra1ToolStripMenuItem.Name = "extra1ToolStripMenuItem";
+            extra1ToolStripMenuItem.Size = new Size(180, 22);
+            extra1ToolStripMenuItem.Text = "Extra1";
+            extra1ToolStripMenuItem.Click += extra1ToolStripMenuItem_Click;
             // 
             // frmPrincipal
             // 
@@ -218,5 +234,7 @@
         private ToolStripMenuItem ntwExemplo2ToolStripMenuItem;
         private ToolStripMenuItem mercadinhoExemplo3ToolStripMenuItem;
         private ToolStripMenuItem mercadinhoExemplo4ToolStripMenuItem;
+        private ToolStripMenuItem extrasToolStripMenuItem;
+        private ToolStripMenuItem extra1ToolStripMenuItem;
     }
 }

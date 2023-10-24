@@ -88,5 +88,11 @@ namespace T3233_ProjetoBase
             frmBco4 frm = new frmBco4();
             frm.ShowDialog();
         }
+
+        private void extra1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmExtra1 frm = new frmExtra1();
+            frm.ShowDialog();
+        }
     }
 }

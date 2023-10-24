@@ -60,22 +60,26 @@
             // 
             // txtPesquisa
             // 
-            txtPesquisa.BackColor = Color.DarkOliveGreen;
+            txtPesquisa.BackColor = Color.LemonChiffon;
             txtPesquisa.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            txtPesquisa.ForeColor = Color.White;
-            txtPesquisa.Location = new Point(64, 202);
+            txtPesquisa.ForeColor = Color.Black;
+            txtPesquisa.Location = new Point(73, 202);
             txtPesquisa.Name = "txtPesquisa";
             txtPesquisa.Size = new Size(330, 23);
             txtPesquisa.TabIndex = 88;
+            txtPesquisa.TextChanged += txtPesquisa_TextChanged;
             // 
             // dgvDados
             // 
+            dgvDados.AllowUserToAddRows = false;
+            dgvDados.AllowUserToDeleteRows = false;
             dgvDados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDados.Location = new Point(9, 231);
             dgvDados.Name = "dgvDados";
             dgvDados.RowTemplate.Height = 25;
             dgvDados.Size = new Size(985, 207);
             dgvDados.TabIndex = 89;
+            dgvDados.CellClick += dgvDados_CellClick;
             // 
             // btnCancelar
             // 
@@ -86,6 +90,7 @@
             btnCancelar.TabIndex = 87;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnExcluir
             // 
@@ -96,6 +101,7 @@
             btnExcluir.TabIndex = 86;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
             // btnSalvar
             // 
@@ -106,6 +112,7 @@
             btnSalvar.TabIndex = 85;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += btnSalvar_Click;
             // 
             // btnAdicionar
             // 
@@ -116,6 +123,7 @@
             btnAdicionar.TabIndex = 84;
             btnAdicionar.Text = "Adicionar";
             btnAdicionar.UseVisualStyleBackColor = true;
+            btnAdicionar.Click += btnAdicionar_Click;
             // 
             // label12
             // 
@@ -324,6 +332,7 @@
             Name = "frmBco4";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Mercadinho - Exemplo 4";
+            Load += frmBco4_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDados).EndInit();
             ResumeLayout(false);
             PerformLayout();
